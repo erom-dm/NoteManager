@@ -1,9 +1,38 @@
+@import "../../styles/variables";
 
 .header{
   position: fixed;
+  display: flex;
+  justify-content: space-between;
   box-sizing: border-box;
   width: 100vw;
   height: 65px;
   padding: 20px 50px;
   background-color: #fff08a;
+
+  &__display-modes{
+    flex: 1 0 33%;
+  }
+
+  &__title{
+    flex: 1 0 33%;
+    align-self: center;
+    font-weight: 700;
+    font-size: 25px;
+  }
+
+  &__btn-container{
+    flex: 1 0 33%;
+    align-self: center;
+  }
+
+  &__add-new-btn{
+    @include button-reset;
+    float: right;
+    width: 100px;
+    height: 40px;
+    font-weight: 600;
+    background-color: #ff8a26;
+    border-radius: 8px;
+  }
 }
