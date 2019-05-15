@@ -6,8 +6,12 @@ const NoteItem = (props) => {
   const { note } = props;
   return (
     <div className="note-item" key={note.id}>
-      <div>{note.title}</div>
-      <div>{note.content}</div>
+      <div className="note-item__header">
+        <div />
+        <div className="note-item__title">{note.title}</div>
+        <button className="note-item__delete-btn" type="button" />
+      </div>
+      <div className="note-item__content">{note.content}</div>
     </div>
   );
 };
