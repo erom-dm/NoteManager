@@ -1,3 +1,4 @@
+@import '../../styles/variables';
 
 .main-area{
   display: flex;
@@ -8,4 +9,8 @@
   padding-top: 65px;
   margin: 0 auto;
   background-color: #d2d2d2;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
+
+@include scrollStyle;

@@ -19,6 +19,11 @@ const notes = {
       title: 'Test Note 3',
       content: '................................................................',
     },
+    {
+      id: 587,
+      title: 'Test Note 2',
+      content: 'Valar morghulis',
+    },
   ],
 };
 
