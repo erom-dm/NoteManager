@@ -1,9 +1,9 @@
 
 .note-item{
+  flex: 0 0 calc(100% - 40px);
   min-height: 200px;
   margin: 10px 20px;
-  flex: 0 0 calc(100% - 40px);
   background-color: #b8edff;
-  border-radius: 5px;
   border: 1px solid black;
+  border-radius: 5px;
 }

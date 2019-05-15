@@ -1,9 +1,9 @@
 
 .header{
   position: fixed;
-  height: 65px;
+  box-sizing: border-box;
   width: 100vw;
+  height: 65px;
   padding: 20px 50px;
   background-color: #fff08a;
-  box-sizing: border-box;
 }

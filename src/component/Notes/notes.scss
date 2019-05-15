@@ -6,11 +6,11 @@
   box-sizing: border-box;
   max-width: 1200px;
   height: 100vh;
-  padding-top: 65px;
   margin: 0 auto;
-  background-color: #d2d2d2;
+  padding-top: 65px;
   overflow-x: hidden;
   overflow-y: auto;
+  background-color: #d2d2d2;
 }
 
 @include scrollStyle;
