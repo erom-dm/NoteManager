@@ -1,15 +1,15 @@
 import React from 'react';
 import Notes from './component/Notes';
 import Header from './component/Header';
+import Snackbar from './component/Snackbar';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <Header />
-      <Notes />
-    </div>
-  );
-}
+const App = () => (
+  <div className="App">
+    <Header />
+    <Notes />
+    <Snackbar />
+  </div>
+);
 
 export default App;
