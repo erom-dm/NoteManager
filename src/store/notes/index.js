@@ -1,16 +1,16 @@
 const TYPE = 'TYPE';
 
 const initialState = {
-  notes: []
+  notes: [],
 };
 
 const eventsReducer = (state = initialState, action) => {
   switch (action.type) {
     case TYPE:
-      return {...state, events: action.payload};
+      return { ...state, events: action.payload };
     default:
-      return state
+      return state;
   }
 };
 
-export default eventsReducer
+export default eventsReducer;
